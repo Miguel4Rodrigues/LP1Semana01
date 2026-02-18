@@ -24,7 +24,15 @@ namespace VariousTypes
             char warning = '\u26A0';
             Console.WriteLine(heart);
             Console.WriteLine(pencil);
-            Console.WriteLine(warning);  
+            Console.WriteLine(warning);
+
+            // variáveis reais
+            float temperatura = 25.5f;
+            double pi = 3.1415926535;
+            decimal precoProduto = 299.99m;
+            Console.WriteLine(temperatura);
+            Console.WriteLine(pi);
+            Console.WriteLine(precoProduto);  
         }
     }
 }
