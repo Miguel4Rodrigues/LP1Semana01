@@ -32,7 +32,13 @@ namespace VariousTypes
             decimal precoProduto = 299.99m;
             Console.WriteLine(temperatura);
             Console.WriteLine(pi);
-            Console.WriteLine(precoProduto);  
+            Console.WriteLine(precoProduto);
+
+            // variáveis booleanas
+            bool isGreater = 20 > 10;
+            bool isEqual = 10 == 5;
+            Console.WriteLine(isGreater);
+            Console.WriteLine(isEqual);
         }
     }
 }
