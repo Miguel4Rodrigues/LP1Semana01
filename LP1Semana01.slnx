@@ -1,5 +1,4 @@
 <Solution>
-  <Project Path="E01/E01.csproj" />
   <Project Path="ManyStrings/ManyStrings.csproj" />
   <Project Path="MeuPrograma/MeuPrograma.csproj" />
   <Project Path="VariousTypes/VariousTypes.csproj" />
