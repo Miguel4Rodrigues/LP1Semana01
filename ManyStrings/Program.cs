@@ -15,6 +15,19 @@ namespace ManyStrings
             Console.WriteLine(message);
             Console.WriteLine(heart);
             Console.WriteLine(newLine);
+
+            //variáveis criadas por concatenação
+            string concat1 = "Hey" + 1;
+            string concat2 = concat1 + 2;
+            Console.WriteLine(concat1);
+            Console.WriteLine(concat2);
+            //variáveis criadas por interpolação
+            int camisolaPreco = 10;
+            int camisolaQuantidade = 25;
+            string inter1 = $"valor de camisola é {camisolaPreco}€";
+            string inter2 = $"Disponíveis {camisolaQuantidade} Camisolas no total de {camisolaPreco * camisolaQuantidade}€";
+            Console.WriteLine(inter1);
+            Console.WriteLine(inter2);
         }
     }
 }
