@@ -10,6 +10,7 @@ namespace AskForInput
             int numeroInteiro = int.Parse(Console.ReadLine());
             Console.WriteLine("Insira um número real: ");
             float numeroReal = float.Parse(Console.ReadLine());
+            Console.WriteLine($"Soma = {numeroInteiro + numeroReal}");
         }
     }
 }
